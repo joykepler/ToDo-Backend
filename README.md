@@ -36,15 +36,16 @@ composer install
 
 3. Configure o ambiente
 
-    Para Linux:
+(Para Linux:)
 ```bash
 cp .env.example .env
 ```
 
-Para Windows:
+(Para Windows:)
 ```bash
 copy .env.example .env
 ```
+
 
 ```bash
 php artisan key:generate
