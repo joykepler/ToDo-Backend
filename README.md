@@ -44,5 +44,5 @@ php artisan migrate
 6.Inicie o servidor
 php artisan serve
 
- ## 🔗 Repostório Front-end
+ ## 🔗 Repositório Front-end
  https://github.com/joykepler/ToDo-Frontend
