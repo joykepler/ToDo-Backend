@@ -20,15 +20,25 @@ Backend da aplicação ToDo List desenvolvida com Laravel. Esta é a API REST qu
 ## 🚀 Instalação e Configuração
 
 1. Clone o repositório
+```bash
 git clone https://github.com/joykepler/ToDo-Backend.git
+```
+
+```bash
 cd ToDo-Backend
+```
 
 2.Instale as dependências
 composer install
 
 3.Configure o ambiente
+```bash
 cp .env.example .env
+```
+
+```bash
 php artisan key:generate
+```
 
 4.Configure o banco de dados no.env
 DB_CONNECTION=mysql
@@ -39,10 +49,14 @@ DB_USERNAME=seu_usuario
 DB_PASSWORD=sua_senha
 
 5.Execute as migrations
+```bash
 php artisan migrate
+```
 
 6.Inicie o servidor
+```bash
 php artisan serve
+```
 
  ## 🔗 Repositório Front-end
  https://github.com/joykepler/ToDo-Frontend
