@@ -10,12 +10,12 @@ Backend da aplicação ToDo List desenvolvida com Laravel. Esta é a API REST qu
 ## 🛠️ Tecnologias
 - Laravel 10.x
 - PHP 8.1+
-- MySQL
+- PostgreSQL
 - Composer
 
 ## ⚙️ Requisitos
 - PHP 8.1 ou superior
-- MySQL 5.7 ou superior
+- PostgreSQL 12 ou superior
 - Composer
 
 ## 🚀 Instalação e Configuração
@@ -45,9 +45,9 @@ php artisan key:generate
 
 4. Configure o banco de dados no.env
 
-DB_CONNECTION=mysql
+DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
-DB_PORT=3306
+DB_PORT=5432
 DB_DATABASE=todo_db
 DB_USERNAME=seu_usuario
 DB_PASSWORD=sua_senha
