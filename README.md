@@ -36,7 +36,7 @@ composer install
 
 3. Configure o ambiente
 
-(Para Linux:)
+(Para Linux/Mac:)
 ```bash
 cp .env.example .env
 ```
