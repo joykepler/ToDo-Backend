@@ -46,7 +46,7 @@ cp .env.example .env
 copy .env.example .env
 ```
 
-
+Ainda no terminal:
 ```bash
 php artisan key:generate
 ```
