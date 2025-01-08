@@ -29,7 +29,9 @@ cd ToDo-Backend
 ```
 
 2.Instale as dependências
+```bash
 composer install
+```
 
 3.Configure o ambiente
 ```bash
@@ -41,6 +43,7 @@ php artisan key:generate
 ```
 
 4.Configure o banco de dados no.env
+
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
