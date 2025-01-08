@@ -1,7 +1,8 @@
-Diagrama do Banco de Dados:
+# ToDo List Application (Backend)
+
+## Diagrama do Banco de Dados:
 ![image](https://github.com/user-attachments/assets/31e6be8b-7065-40de-8b21-2322f4f15518)
 
-# ToDo List Application (Backend)
 
 ## 📝 Descrição
 Backend da aplicação ToDo List desenvolvida com Laravel. Esta é a API REST que serve o [frontend](https://github.com/joykepler/ToDo-Frontend).
