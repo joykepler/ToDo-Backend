@@ -39,9 +39,9 @@ class TaskController extends Controller
         return response()->json($task, 201);
     }
 
-    public function show(string $id)
+    public function show(Task $task)
     {
-        //
+        return response()->json($task);
     }
 
     public function update(Request $request, Task $task)
@@ -57,13 +57,17 @@ class TaskController extends Controller
         if ($request->status === 'concluída' && !$task->completed_at) {
             $task->completed_at = now();
             $task->save();
+        } elseif ($request->status !== 'concluída' && $task->completed_at) {
+            $task->completed_at = null;
+            $task->save();
         }
 
         return response()->json($task);
     }
 
-    public function destroy(string $id)
+    public function destroy(Task $task)
     {
-        //
+        $task->delete();
+        return response()->json(null, 204);
     }
 }
