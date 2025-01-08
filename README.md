@@ -28,12 +28,12 @@ git clone https://github.com/joykepler/ToDo-Backend.git
 cd ToDo-Backend
 ```
 
-2.Instale as dependências
+2. Instale as dependências
 ```bash
 composer install
 ```
 
-3.Configure o ambiente
+3. Configure o ambiente
 ```bash
 cp .env.example .env
 ```
@@ -42,7 +42,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-4.Configure o banco de dados no.env
+4. Configure o banco de dados no.env
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -51,12 +51,12 @@ DB_DATABASE=todo_db
 DB_USERNAME=seu_usuario
 DB_PASSWORD=sua_senha
 
-5.Execute as migrations
+5. Execute as migrations
 ```bash
 php artisan migrate
 ```
 
-6.Inicie o servidor
+6. Inicie o servidor
 ```bash
 php artisan serve
 ```
