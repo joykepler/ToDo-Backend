@@ -41,9 +41,10 @@ composer install
 cp .env.example .env
 ```
 
-
 Para Windows:
+```bash
 copy .env.example .env
+```
 
 ```bash
 php artisan key:generate
