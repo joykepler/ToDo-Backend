@@ -53,12 +53,12 @@ php artisan key:generate
 
 4. Configure o banco de dados no.env
 
-DB_CONNECTION=pgsql
-DB_HOST=127.0.0.1
-DB_PORT=5432
-DB_DATABASE=todo_db
-DB_USERNAME=seu_usuario
-DB_PASSWORD=sua_senha
+- DB_CONNECTION=pgsql
+- DB_HOST=127.0.0.1
+- DB_PORT=5432
+- DB_DATABASE=todo_db
+- DB_USERNAME=seu_usuario
+- DB_PASSWORD=sua_senha
 
 5. Execute as migrations
 ```bash
